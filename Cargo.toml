@@ -1,6 +1,6 @@
 [package]
 name = "uri"
-version = "0.1.0" # remember to update html_root_url
+version = "0.1.0"
 readme = "README.md"
 documentation = "https://docs.rs/uri"
 repository = "https://github.com/hyperium/uri"
@@ -19,3 +19,5 @@ keywords = ["uri"]
 [dependencies]
 bytes = "0.4"
 
+[dev-dependencies]
+version-sync = "0.5"
