@@ -22,6 +22,8 @@
 //! assert_eq!(uri.path(), "/install.html");
 //! ```
 
+#![doc(html_root_url = "https://docs.rs/uri/0.1.0")]
+
 extern crate bytes;
 
 mod byte_str;
